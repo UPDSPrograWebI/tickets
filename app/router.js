@@ -7,6 +7,7 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.resource('tickets');
 });
 
 export default Router;
